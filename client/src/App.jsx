@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-      .get("https://eks-intec-task2-1.onrender.com/getUsers")
+      .get("https://eks-intec-task2.onrender.com/getUsers")
       .then((response) => setUsers(response.data))
       .catch((err) => console.log(err))
   }, [])
